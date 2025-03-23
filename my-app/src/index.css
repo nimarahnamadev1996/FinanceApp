@@ -1,0 +1,72 @@
+.expense-container {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.income {
+  color: green;
+  font-weight: bold;
+}
+
+.expense {
+  color: red;
+  font-weight: bold;
+}
+
+.add-transaction input {
+  width: calc(50% - 10px);
+  padding: 10px;
+  margin: 5px;
+}
+
+button {
+  padding: 10px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkgreen;
+}
+
+.transactions {
+  list-style: none;
+  padding: 0;
+}
+
+.transactions li {
+  background: #333;
+  margin: 5px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.transactions button {
+  background: red;
+  border: none;
+  cursor: pointer;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #111;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
